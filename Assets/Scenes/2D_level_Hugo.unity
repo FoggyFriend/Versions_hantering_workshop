@@ -757,6 +757,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: battery_power_core_charged_0 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7101124725163316358, guid: 2ffb7f2372dd13b419319293db6890d5, type: 3}
+      propertyPath: m_Color.b
+      value: 0.21456406
+      objectReference: {fileID: 0}
+    - target: {fileID: 7101124725163316358, guid: 2ffb7f2372dd13b419319293db6890d5, type: 3}
+      propertyPath: m_Color.g
+      value: 0.7924528
+      objectReference: {fileID: 0}
+    - target: {fileID: 7101124725163316358, guid: 2ffb7f2372dd13b419319293db6890d5, type: 3}
+      propertyPath: m_Color.r
+      value: 0.1981132
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
