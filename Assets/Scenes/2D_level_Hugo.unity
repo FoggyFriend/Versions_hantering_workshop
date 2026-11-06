@@ -3090,7 +3090,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 4294967295
-  spriteRenderer: {fileID: 560649522532976279}
+  spriteRenderer: {fileID: 391955564}
   animator: {fileID: 0}
 --- !u!4 &7718939815585005496
 Transform:
