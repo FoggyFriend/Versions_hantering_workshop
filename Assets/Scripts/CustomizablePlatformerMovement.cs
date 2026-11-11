@@ -87,14 +87,14 @@ public class CustomizablePlatformerMovement : MonoBehaviour
         //---Handle horizontal velocity---
         velocity.x = moveInput.x * maxSpeed;
         
-        public Animator hugosAnimator;
-        public float currentVelocity = -5f;
+     //   public Animator hugosAnimator;
+       // public float currentVelocity = -5f;
             
-            void animteMovement();
+       //     void animteMovement();
             {
-                float absoluteVelocityX = Mathf.Abs(currentVelocity);
+         //       float absoluteVelocityX = Mathf.Abs(currentVelocity);
                 
-                hugosAnimator.SetFloat("VelocityX", absoluteVelocityX);
+           //     hugosAnimator.SetFloat("VelocityX", absoluteVelocityX);
             }
         
         // Write movement animation code here. (Suggestion: send your current velocity into the Animator for both the x- and y-axis.)
