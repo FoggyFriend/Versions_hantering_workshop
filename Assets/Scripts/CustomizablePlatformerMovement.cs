@@ -38,6 +38,8 @@ public class CustomizablePlatformerMovement : MonoBehaviour
     [Header("Graphics")]
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Animator animator;
+
+    [SerializeField] private SpriteRenderer minimapIndicator;
     
     void Awake()
     {
@@ -104,9 +106,18 @@ public class CustomizablePlatformerMovement : MonoBehaviour
         if (spriteRenderer)
         {
             if (moveInput.x > 0.01f)
+            {
                 spriteRenderer.flipX = false;
+                minimapIndicator.flipY = false;
+                
+            }
             else if (moveInput.x < -0.01f)
+            {
                 spriteRenderer.flipX = true;
+                minimapIndicator.flipY = true;
+                
+            }
+
         }
     }
 
