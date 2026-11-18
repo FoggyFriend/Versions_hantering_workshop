@@ -1,4 +1,5 @@
 using System;
+using TMPro;
 using UnityEngine;
 
 public class interactble : MonoBehaviour
@@ -11,6 +12,7 @@ public class interactble : MonoBehaviour
       {
          particles.SetActive(true);
       }
+
       Destroy(gameObject);
    }
 }
