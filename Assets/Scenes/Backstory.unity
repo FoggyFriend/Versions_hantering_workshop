@@ -209,6 +209,7 @@ GameObject:
   - component: {fileID: 1025261836}
   - component: {fileID: 1025261838}
   - component: {fileID: 1025261837}
+  - component: {fileID: 1025261839}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -335,6 +336,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1025261835}
   m_CullTransparentMesh: 1
+--- !u!114 &1025261839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025261835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efb62aa9ced171e4aacbc2436610daf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneChangeHandler
 --- !u!1 &1242251354
 GameObject:
   m_ObjectHideFlags: 0
@@ -542,6 +555,7 @@ GameObject:
   - component: {fileID: 1457496758}
   - component: {fileID: 1457496757}
   - component: {fileID: 1457496756}
+  - component: {fileID: 1457496759}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -612,7 +626,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1457496757}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1457496759}
+        m_TargetAssemblyTypeName: SceneChangeHandler, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1457496757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -651,6 +677,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1457496754}
   m_CullTransparentMesh: 1
+--- !u!114 &1457496759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457496754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efb62aa9ced171e4aacbc2436610daf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneChangeHandler
 --- !u!1 &2012490501
 GameObject:
   m_ObjectHideFlags: 0
